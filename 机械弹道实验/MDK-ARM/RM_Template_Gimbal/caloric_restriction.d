@@ -1,0 +1,2 @@
+rm_template_gimbal\caloric_restriction.o: Algorithm\Caloric_restriction.c
+rm_template_gimbal\caloric_restriction.o: Algorithm\Caloric_restriction.h
