@@ -4188,7 +4188,7 @@ Image component sizes
        136         12        152         24        596      17202   freertos.o
          0          0          0          0         24       3909   gimbal_control.o
        460         36          0          0          0       1223   gpio.o
-       900        126          0         16        324      10103   gun_control.o
+       900        126          0         16        324      10131   gun_control.o
        460         24          0         24      15360       7431   heap_4.o
        138          0          0          0          0       3642   list.o
        200         10          0          0          0     804320   main.o
@@ -4222,7 +4222,7 @@ Image component sizes
        106          0          0          0          0       2568   user_lib.o
 
     ----------------------------------------------------------------------
-     22222       1604        664        252      20084    1107254   Object Totals
+     22222       1604        664        252      20084    1107282   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         38          0          0          0         11          0   (incl. Padding)
 
@@ -4276,8 +4276,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     23544       1620        664        252      20084    1086706   Grand Totals
-     23544       1620        664        252      20084    1086706   ELF Image Totals
+     23544       1620        664        252      20084    1086734   Grand Totals
+     23544       1620        664        252      20084    1086734   ELF Image Totals
      23544       1620        664        252          0          0   ROM Totals
 
 ==============================================================================

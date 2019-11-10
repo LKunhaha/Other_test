@@ -30,7 +30,7 @@ void Gun_Pid_Init()
 /* 任务主体部分 -------------------------------------------------------------*/
 
 /*********调试初始参数设定***************/
-
+#define Test_mode  bopan_danfa_mode          //拨盘模式初设定，可设：bopan_danfa_mode、bopan_Lianfa_mode
 #define Lianfa_speed  3000                   //连发模式下的的速度大小，设定值可设为：0—6000
 #define	shoot_value   120                    //摩擦轮转速设定，设定值可设为：110—125
 /****************************************/
@@ -104,7 +104,7 @@ void Gun_Task(void const * argument)
 		  moto_dial_get.cmd_time = GetSystemTimer();    //获取任务实时时间
 		
 	/*********调试初始参数设定***************/
-	 bopan.mode = bopan_danfa_mode;      //拨盘模式初设定，可设：bopan_danfa_mode、bopan_Lianfa_mode
+	 bopan.mode = Test_mode;      //拨盘模式初设定，可设：bopan_danfa_mode、bopan_Lianfa_mode
 	/****************************************/
 		
 			if(Limit_switch_Control)                      //是否采用限位开关控制
