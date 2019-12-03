@@ -1,8 +1,8 @@
 2018.07.12-infantry\cmsis_os.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
-2018.07.12-infantry\cmsis_os.o: D:\Users\MDK\ARM\ARMCC\Bin\..\include\string.h
+2018.07.12-infantry\cmsis_os.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 2018.07.12-infantry\cmsis_os.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
-2018.07.12-infantry\cmsis_os.o: D:\Users\MDK\ARM\ARMCC\Bin\..\include\stdint.h
-2018.07.12-infantry\cmsis_os.o: D:\Users\MDK\ARM\ARMCC\Bin\..\include\stddef.h
+2018.07.12-infantry\cmsis_os.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+2018.07.12-infantry\cmsis_os.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 2018.07.12-infantry\cmsis_os.o: ../Drivers/CMSIS/Include/core_cmFunc.h
 2018.07.12-infantry\cmsis_os.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 2018.07.12-infantry\cmsis_os.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
