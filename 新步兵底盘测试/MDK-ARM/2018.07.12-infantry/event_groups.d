@@ -1,8 +1,8 @@
 2018.07.12-infantry\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
-2018.07.12-infantry\event_groups.o: D:\Users\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+2018.07.12-infantry\event_groups.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 2018.07.12-infantry\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-2018.07.12-infantry\event_groups.o: D:\Users\MDK\ARM\ARMCC\Bin\..\include\stddef.h
-2018.07.12-infantry\event_groups.o: D:\Users\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+2018.07.12-infantry\event_groups.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+2018.07.12-infantry\event_groups.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 2018.07.12-infantry\event_groups.o: ../Inc/FreeRTOSConfig.h
 2018.07.12-infantry\event_groups.o: ../Inc/main.h
 2018.07.12-infantry\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h

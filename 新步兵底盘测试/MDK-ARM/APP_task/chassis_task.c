@@ -140,5 +140,8 @@ void hard_brak()
 		moto_3508_set.dstVmmps_X=0;
 		moto_3508_set.dstVmmps_Y=0;
 		moto_3508_set.dstVmmps_W=0;
+		moto_3508_set.dstVmmps_W=1;
+	
 }
+
 

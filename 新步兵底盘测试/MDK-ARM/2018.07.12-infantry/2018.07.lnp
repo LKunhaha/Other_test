@@ -52,11 +52,14 @@
 "2018.07.12-infantry\user_lib.o"
 "2018.07.12-infantry\communication.o"
 "2018.07.12-infantry\minipc.o"
+"2018.07.12-infantry\atom_imu.o"
+"2018.07.12-infantry\decode.o"
 "2018.07.12-infantry\chassis_task.o"
 "2018.07.12-infantry\data_pro_task.o"
 "2018.07.12-infantry\led_task.o"
 "..\DSP_LIB\arm_cortexM4lf_math.lib"
 --library_type=microlib --strict --scatter "2018.07.12-infantry\2018.07.sct"
+
 --diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "2018.07.map" -o 2018.07.12-infantry\2018.07.12-infantry

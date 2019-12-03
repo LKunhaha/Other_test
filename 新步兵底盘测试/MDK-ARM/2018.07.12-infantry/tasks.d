@@ -1,9 +1,9 @@
 2018.07.12-infantry\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
-2018.07.12-infantry\tasks.o: D:\Users\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
-2018.07.12-infantry\tasks.o: D:\Users\MDK\ARM\ARMCC\Bin\..\include\string.h
+2018.07.12-infantry\tasks.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+2018.07.12-infantry\tasks.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 2018.07.12-infantry\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-2018.07.12-infantry\tasks.o: D:\Users\MDK\ARM\ARMCC\Bin\..\include\stddef.h
-2018.07.12-infantry\tasks.o: D:\Users\MDK\ARM\ARMCC\Bin\..\include\stdint.h
+2018.07.12-infantry\tasks.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+2018.07.12-infantry\tasks.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 2018.07.12-infantry\tasks.o: ../Inc/FreeRTOSConfig.h
 2018.07.12-infantry\tasks.o: ../Inc/main.h
 2018.07.12-infantry\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
@@ -15,4 +15,4 @@
 2018.07.12-infantry\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
 2018.07.12-infantry\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
 2018.07.12-infantry\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h
-2018.07.12-infantry\tasks.o: D:\Users\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+2018.07.12-infantry\tasks.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

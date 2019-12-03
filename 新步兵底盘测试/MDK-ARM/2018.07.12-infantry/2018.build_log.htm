@@ -1,0 +1,217 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: JJJ Jack, HP Inc., LIC=4ZL2Z-J06XH-INFA7-E4Y23-XWRZC-YJ2JL
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\Program Files\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\GIt\Other_test\新步兵底盘测试\MDK-ARM\2018.07.12-infantry.uvprojx
+Project File Date:  12/03/2019
+
+<h2>Output:</h2>
+Build target '2018.07.12-infantry'
+assembling startup_stm32f427xx.s...
+compiling system_stm32f4xx.c...
+compiling cmsis_os.c...
+compiling tasks.c...
+compiling queue.c...
+compiling timers.c...
+compiling heap_4.c...
+compiling croutine.c...
+compiling event_groups.c...
+compiling list.c...
+compiling port.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling stm32f4xx_hal_tim.c...
+compiling stm32f4xx_hal_flash_ramfunc.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_can.c...
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(1080): warning:  #177-D: variable "tmp3" was declared but never referenced
+    uint32_t tmp1 = 0U, tmp2 = 0U, tmp3 = 0U;
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(1293): warning:  #177-D: function "CAN_Transmit_IT" was declared but never referenced
+  static HAL_StatusTypeDef CAN_Transmit_IT(CAN_HandleTypeDef* hcan)
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c: 2 warnings, 0 errors
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal_uart.c...
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(1611): warning:  #177-D: function "UART_DMARxHalfCplt" was declared but never referenced
+  static void UART_DMARxHalfCplt(DMA_HandleTypeDef *hdma)
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c: 1 warning, 0 errors
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_flash.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal_tim_ex.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_spi.c...
+compiling stm32f4xx_hal_adc.c...
+compiling stm32f4xx_hal_adc_ex.c...
+compiling main.c...
+compiling freertos.c...
+../Drivers/CMSIS/Include/arm_math.h(4889): warning:  #223-D: function "__SMUAD" declared implicitly
+      acc = (q31_t) __SMUAD((uint32_t)S->A0, (uint32_t)in);
+../Drivers/CMSIS/Include/arm_math.h(4893): warning:  #223-D: function "__SMLALD" declared implicitly
+      acc = (q63_t)__SMLALD((uint32_t)S->A1, (uint32_t)*vstate, (uint64_t)acc);
+../Drivers/CMSIS/Include/arm_math.h(4907): warning:  #223-D: function "__SSAT" declared implicitly
+      out = (q15_t) (__SSAT((acc >> 15), 16));
+../Drivers/CMSIS/Include/arm_math.h(5032): warning:  #223-D: function "__QADD" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+../Drivers/CMSIS/Include/arm_math.h(5129): warning:  #223-D: function "__QSUB" declared implicitly
+      *pIb = __QSUB(product2, product1);
+../Drivers/CMSIS/Include/arm_math.h(5250): warning:  #223-D: function "__QADD" declared implicitly
+      *pId = __QADD(product1, product2);
+../Drivers/CMSIS/Include/arm_math.h(5253): warning:  #223-D: function "__QSUB" declared implicitly
+      *pIq = __QSUB(product4, product3);
+../Drivers/CMSIS/Include/arm_math.h(5363): warning:  #223-D: function "__QSUB" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+../Drivers/CMSIS/Include/arm_math.h(5366): warning:  #223-D: function "__QADD" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+../Src/freertos.c: 9 warnings, 0 errors
+compiling stm32f4xx_it.c...
+compiling stm32f4xx_hal_msp.c...
+compiling BSP.c...
+compiling spi.c...
+compiling adc.c...
+compiling tim.c...
+../Src/tim.c(62): warning:  #177-D: variable "sConfig" was declared but never referenced
+        TIM_Encoder_InitTypeDef sConfig;
+../Src/tim.c(63): warning:  #177-D: variable "sMasterConfig" was declared but never referenced
+        TIM_MasterConfigTypeDef sMasterConfig;
+../Src/tim.c(65): warning:  #177-D: variable "sClockSourceConfig" was declared but never referenced
+    TIM_ClockConfigTypeDef sClockSourceConfig;
+../Src/tim.c(107): warning:  #177-D: variable "sConfig" was declared but never referenced
+        TIM_Encoder_InitTypeDef sConfig;
+../Src/tim.c(108): warning:  #177-D: variable "sMasterConfig" was declared but never referenced
+        TIM_MasterConfigTypeDef sMasterConfig;
+../Src/tim.c(110): warning:  #177-D: variable "sClockSourceConfig" was declared but never referenced
+    TIM_ClockConfigTypeDef sClockSourceConfig;
+../Src/tim.c: 6 warnings, 0 errors
+compiling can.c...
+compiling gpio.c...
+compiling dma.c...
+compiling usart.c...
+compiling Motor_USE_TIM.c...
+MotorDriver\Motor_USE_TIM.c(68): warning:  #177-D: variable "Val" was declared but never referenced
+                static int16_t Val[2]={0,0}; 
+MotorDriver\Motor_USE_TIM.c(108): warning:  #1-D: last line of file ends without a newline
+  }
+MotorDriver\Motor_USE_TIM.c: 2 warnings, 0 errors
+compiling Motor_USE_CAN.c...
+compiling pid.c...
+compiling mecanum_calc.c...
+compiling Power_restriction.c...
+Algorithm\Power_restriction.c(425): warning:  #940-D: missing return statement at end of non-void function "Down_Shield"
+  }
+Algorithm\Power_restriction.c(489): warning:  #177-D: variable "total_current" was declared but never referenced
+                static float total_current = 0;
+Algorithm\Power_restriction.c(490): warning:  #550-D: variable "flag" was set but never used
+                static uint8_t flag = 0;
+Algorithm\Power_restriction.c(625): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                capvolt_num =  6 - (uint8_t)((24.0f - current_get.Capacitance_Volt) / 1.5);
+Algorithm\Power_restriction.c(634): warning:  #940-D: missing return statement at end of non-void function "Show_CapVolt"
+  }
+Algorithm\Power_restriction.c(623): warning:  #550-D: variable "capvolt" was set but never used
+                uint8_t capvolt = 0,capvolt_num = 0;
+Algorithm\Power_restriction.c: 6 warnings, 0 errors
+compiling protocol.c...
+Algorithm\protocol.c(272): warning:  #177-D: variable "crc8_flag" was declared but never referenced
+                static uint8_t crc8_flag = 0,crc16_flag = 0;
+Algorithm\protocol.c(272): warning:  #177-D: variable "crc16_flag" was declared but never referenced
+                static uint8_t crc8_flag = 0,crc16_flag = 0;
+Algorithm\protocol.c: 2 warnings, 0 errors
+compiling Caloric_restriction.c...
+compiling SystemState.c...
+compiling user_lib.c...
+compiling communication.c...
+Communication\communication.c(99): warning:  #177-D: variable "data_sum" was declared but never referenced
+    int16_t data_sum=0;
+Communication\communication.c(100): warning:  #550-D: variable "i" was set but never used
+        static int16_t i=0;
+Communication\communication.c(103): warning:  #177-D: variable "JY_NUM" was declared but never referenced
+        uint8_t JY_NUM = 0;
+Communication\communication.c(104): warning:  #177-D: variable "buff_last" was declared but never referenced
+        static uint8_t buff_last[11] = {0};      //上一帧的残余数据
+Communication\communication.c(105): warning:  #177-D: variable "index" was declared but never referenced
+        static uint8_t index = 0;               
+Communication\communication.c(69): warning:  #177-D: variable "ucRxCnt" was declared but never referenced
+  static unsigned char ucRxCnt = 0;
+Communication\communication.c(70): warning:  #177-D: variable "buff_transition" was declared but never referenced
+  static unsigned char buff_transition[11] = {0}; //过渡段缓存
+Communication\communication.c(71): warning:  #177-D: variable "buff_last" was declared but never referenced
+  static unsigned char buff_last[SizeofJY901] = {0};
+Communication\communication.c: 8 warnings, 0 errors
+compiling minipc.c...
+Communication\minipc.c(65): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        minipc_tx.cmd1                     = (int16_t)(cmd1*174.5)>>8;
+Communication\minipc.c(67): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+        minipc_tx.cmd3                     = (int16_t)(cmd2*174.5)>>8;
+Communication\minipc.c: 2 warnings, 0 errors
+compiling atom_imu.c...
+compiling decode.c...
+compiling chassis_task.c...
+APP_task\chassis_task.c(34): warning:  #177-D: variable "Current_set" was declared but never referenced
+  static float Current_set[4] = {0};  //传递给功率限制的缓存
+APP_task\chassis_task.c: 1 warning, 0 errors
+compiling data_pro_task.c...
+compiling led_task.c...
+../Drivers/CMSIS/Include/arm_math.h(4889): warning:  #223-D: function "__SMUAD" declared implicitly
+      acc = (q31_t) __SMUAD((uint32_t)S->A0, (uint32_t)in);
+../Drivers/CMSIS/Include/arm_math.h(4893): warning:  #223-D: function "__SMLALD" declared implicitly
+      acc = (q63_t)__SMLALD((uint32_t)S->A1, (uint32_t)*vstate, (uint64_t)acc);
+../Drivers/CMSIS/Include/arm_math.h(4907): warning:  #223-D: function "__SSAT" declared implicitly
+      out = (q15_t) (__SSAT((acc >> 15), 16));
+../Drivers/CMSIS/Include/arm_math.h(5032): warning:  #223-D: function "__QADD" declared implicitly
+      *pIbeta = __QADD(product1, product2);
+../Drivers/CMSIS/Include/arm_math.h(5129): warning:  #223-D: function "__QSUB" declared implicitly
+      *pIb = __QSUB(product2, product1);
+../Drivers/CMSIS/Include/arm_math.h(5250): warning:  #223-D: function "__QADD" declared implicitly
+      *pId = __QADD(product1, product2);
+../Drivers/CMSIS/Include/arm_math.h(5253): warning:  #223-D: function "__QSUB" declared implicitly
+      *pIq = __QSUB(product4, product3);
+../Drivers/CMSIS/Include/arm_math.h(5363): warning:  #223-D: function "__QSUB" declared implicitly
+      *pIalpha = __QSUB(product1, product2);
+../Drivers/CMSIS/Include/arm_math.h(5366): warning:  #223-D: function "__QADD" declared implicitly
+      *pIbeta = __QADD(product4, product3);
+APP_task\led_task.c: 9 warnings, 0 errors
+linking...
+Program Size: Code=23344 RO-data=1428 RW-data=232 ZI-data=21232  
+"2018.07.12-infantry\2018.07.12-infantry" - 0 Error(s), 48 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\GIt\Other_test\新步兵底盘测试\MDK-ARM\RTE
+  D:\Program Files\Keil_v5\ARM\ARM\CMSIS\4.2.0\CMSIS\Include
+  D:\Program Files\Keil_v5\ARM\Keil\STM32F4xx_DFP\2.9.0
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>
